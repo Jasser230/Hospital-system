@@ -182,3 +182,23 @@ The Hospital Information System (HIS) is designed to optimize healthcare operati
 
 
 <!-- Page Break -->
+
+
+# Software Requirements Specification (SRS) for Hospital Information System
+
+  
+  
+
+## Chapter 1: Introduction
+
+  
+  
+
+### 1.1 Purpose of the Project
+
+The goal of this project is to design and develop a **Hospital Information System (HIS)** that will facilitate hospital management processes by centralizing patient information, enhancing interdepartmental communication, and improving patient care services. The system will aim to automate key hospital functions such as patient registration, medical record maintenance, appointment scheduling, billing, and reporting.
+
+  
+  
+
+The HIS will also provide secure and easy access to patient data for doctors, nurses, and administrative staff while ensuring compliance with healthcare regulations. This will allow hospital staff to deliver timely and efficient care, reduce administrative overhead, and improve overall hospital efficiency.

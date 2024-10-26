@@ -202,3 +202,13 @@ The goal of this project is to design and develop a **Hospital Information Syste
   
 
 The HIS will also provide secure and easy access to patient data for doctors, nurses, and administrative staff while ensuring compliance with healthcare regulations. This will allow hospital staff to deliver timely and efficient care, reduce administrative overhead, and improve overall hospital efficiency.
+
+
+
+### 1.2 Purpose of this Document
+This document provides a detailed outline of the functional and non-functional requirements, as well as the overall system architecture, that developers and stakeholders will need to follow during the development lifecycle. It defines the scope of the project, user interactions, system behavior, performance benchmarks, and future scalability considerations.
+
+The document will act as the primary reference for:
+- **Developers**: To understand the functionalities and features they need to implement.
+- **System Testers**: To ensure all system components function as specified.
+- **Stakeholders**: To validate the project scope and objectives.

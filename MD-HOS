@@ -213,6 +213,8 @@ The document will act as the primary reference for:
 - **System Testers**: To ensure all system components function as specified.
 - **Stakeholders**: To validate the project scope and objectives.
 
+
+
 ### 1.3 Overview of this Document
 This document is structured according to the stages of the Software Development Life Cycle (SDLC), and includes the following sections:
 - **Chapter 1**: Introduction
@@ -221,3 +223,17 @@ This document is structured according to the stages of the Software Development 
 - **Chapter 4**: Non-Functional Requirements
 - **Chapter 5**: System Models and Diagrams
 - **Chapter 6**: Additional Considerations (Legal, Safety, Constraints)
+
+
+
+### 1.4 Intended Audience and Reading Suggestions
+The intended audience for this document includes:
+- **Developers**: To refer to system requirements and technical specifications.
+- **Project Managers**: To track the progress of system design and implementation.
+- **Hospital Administrators and Stakeholders**: To ensure that the system aligns with organizational objectives and patient care goals.
+- **System Testers**: To validate functionality and performance benchmarks.
+
+Each section of the document provides progressively detailed information, beginning with an overview of the system requirements and moving into the specifics of each module.
+
+<!-- Page Break -->
+

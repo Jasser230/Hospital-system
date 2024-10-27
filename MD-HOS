@@ -246,3 +246,33 @@ The **Hospital Information System (HIS)** is a comprehensive solution designed t
 
 The system is built with modularity in mind, meaning that additional features or functionalities can be added later with minimal disruption. For example, if the hospital wants to introduce telemedicine or an AI-based diagnostic tool, these modules can be integrated with the HIS.
 
+
+
+#### External Interfaces
+- **Users**: Doctors, nurses, administrative staff, and patients will interact with the system via user-friendly graphical interfaces.
+- **Third-Party Systems**: The HIS will integrate with external systems such as **Electronic Health Records (EHR)**, **Laboratory Information Management Systems (LIMS)**, and **Insurance Platforms**.
+- **Hardware Interfaces**: The system will interface with hospital devices such as biometric scanners, card readers, and laboratory equipment for automated data input.
+
+### 2.2 Product Features
+The HIS will include the following features:
+
+#### 2.2.1 **Patient Management**
+- **Patient Registration**: Allow hospital staff to capture detailed patient information, including demographic data, insurance, and medical history.
+- **Search Functionality**: Staff can quickly retrieve patient records using various search filters (e.g., patient ID, name, date of birth).
+
+#### 2.2.2 **Appointment Management**
+- **Doctor Scheduling**: Doctors' calendars can be managed, showing their availability for appointments and operations.
+- **Patient Notifications**: Automated notifications and reminders sent via email or SMS to patients before their scheduled appointments.
+
+#### 2.2.3 **Medical Records Management**
+- **Storage of Health Records**: Securely store and manage all patient health records, including test results, diagnoses, and treatment plans.
+- **Doctor's Notes**: Doctors can update patient records with diagnoses, medications, and other observations in real-time.
+
+#### 2.2.4 **Billing and Payment**
+- **Automated Billing**: Generate accurate bills based on the services rendered, medications prescribed, and diagnostic tests performed.
+- **Integration with Insurance**: The system will support automated insurance claims, including verification of patient coverage and processing of payments.
+
+#### 2.2.5 **Reporting and Analytics**
+- **Reports Generation**: Generate detailed reports on patient admissions, financial performance, resource utilization, and doctor activity.
+- **Analytics Dashboard**: Provide real-time data analytics for hospital administrators to monitor key performance indicators (KPIs).
+

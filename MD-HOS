@@ -307,4 +307,17 @@ The system will serve different types of users with varying levels of access and
 
 
 
+### 3.3 Medical Records Management
+
+#### Functional Requirement 4: **Medical Record Storage**
+- The system shall securely store all patient medical records, including diagnoses, medications, treatments, and lab results.
+- The system shall allow authorized users (doctors, nurses) to add new information to a patient’s record.
+
+### 3.4 Billing and Financial Management
+
+#### Functional Requirement 5: **Billing and Invoice Generation**
+- The system shall generate an invoice for each patient based on the services rendered during their visit.
+- The system shall provide an online payment option and track payment status.
+
+
 

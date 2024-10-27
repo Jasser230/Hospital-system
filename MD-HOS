@@ -335,6 +335,10 @@ The system will serve different types of users with varying levels of access and
 - The system must be capable of handling at least 500 concurrent users without performance degradation.
 - The response time for most actions, such as retrieving patient records or scheduling appointments, must not exceed 3 seconds.
 
+### 4.2 Security Requirements
+- All patient data must be encrypted in transit using SSL/TLS protocols and stored securely with encryption algorithms such as AES-256.
+- The system shall require multi-factor authentication (MFA) for administrative access and medical personnel.
+
 ### 4.3 Scalability Requirements
 
 - The system must be scalable to accommodate the hospital's growth, with the ability to support additional users, departments, and new medical services.

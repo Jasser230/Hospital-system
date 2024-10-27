@@ -326,3 +326,12 @@ The system will serve different types of users with varying levels of access and
 #### Functional Requirement 6: **Reports**
 
 - The system shall allow administrators to generate custom reports on patient admissions, financial data, and doctor performance.
+
+
+## Chapter 4: Non-Functional Requirements
+
+
+### 4.1 Performance Requirements
+- The system must be capable of handling at least 500 concurrent users without performance degradation.
+- The response time for most actions, such as retrieving patient records or scheduling appointments, must not exceed 3 seconds.
+

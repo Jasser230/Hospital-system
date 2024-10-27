@@ -284,3 +284,18 @@ The system will serve different types of users with varying levels of access and
 - **Administrative Staff**: Manage appointments, billing, and insurance claims.
 
 - **Patients**: Limited access to their medical history, appointments, and billing information via a secure patient portal.
+
+## Chapter 3: Functional Requirements
+
+### 3.1 Patient Registration and Management
+
+#### Functional Requirement 1: **Patient Registration**
+- The system shall allow the receptionist to register a new patient by entering their name, date of birth, address, and insurance information.
+- The system shall automatically generate a unique patient ID upon registration.
+
+
+
+
+
+
+

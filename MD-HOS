@@ -321,3 +321,8 @@ The system will serve different types of users with varying levels of access and
 
 
 
+### 3.5 Reporting Tools
+
+#### Functional Requirement 6: **Reports**
+
+- The system shall allow administrators to generate custom reports on patient admissions, financial data, and doctor performance.

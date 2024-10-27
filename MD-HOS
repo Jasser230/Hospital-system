@@ -237,17 +237,3 @@ Each section of the document provides progressively detailed information, beginn
 
 <!-- Page Break -->
 
-
-### 1.4 Intended Audience and Reading Suggestions
-
-The intended audience for this document includes:
-
-- **Developers**: To refer to system requirements and technical specifications.
-
-- **Project Managers**: To track the progress of system design and implementation.
-
-- **Hospital Administrators and Stakeholders**: To ensure that the system aligns with organizational objectives and patient care goals.
-
-- **System Testers**: To validate functionality and performance benchmarks.
-
-Each section of the document provides progressively detailed information, beginning with an overview of the system requirements and moving into the specifics of each module.

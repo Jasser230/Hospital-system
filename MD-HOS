@@ -276,3 +276,15 @@ The HIS will include the following features:
 - **Reports Generation**: Generate detailed reports on patient admissions, financial performance, resource utilization, and doctor activity.
 - **Analytics Dashboard**: Provide real-time data analytics for hospital administrators to monitor key performance indicators (KPIs).
 
+
+### 2.3 User Classes and Characteristics
+
+The system will serve different types of users with varying levels of access and functionality:
+
+- **Doctors**: Full access to medical records, appointment schedules, and diagnostic tools.
+
+- **Nurses**: Access to patient care plans, medication schedules, and doctor’s instructions.
+
+- **Administrative Staff**: Manage appointments, billing, and insurance claims.
+
+- **Patients**: Limited access to their medical history, appointments, and billing information via a secure patient portal.

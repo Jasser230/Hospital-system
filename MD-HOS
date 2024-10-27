@@ -1,4 +1,3 @@
-
 <p align="right">
 
 BSc Hospital system 
@@ -26,7 +25,9 @@ Umm Al-Qura University, KSA
 
 </p>
 
+
 <!-- Page Break -->
+
 
 *Submitted to the Computing at Umm Al-Qura University in partial fulfillment of the requirements for the degree of Bachelor of Science in Computer Science.*
 
@@ -64,7 +65,9 @@ Phone: +966 56 358 4937
 Fax: +966 56 358 4937
 Kingdom of Saudi Arabia
 
+
 <!-- Page Break -->
+
 
 # Intellectual Property Right Declaration
 
@@ -92,7 +95,6 @@ This above statement applies to all students and faculty members.
 <!-- Page Break -->
 
 
-
 # Anti-Plagiarism Declaration 
 This is to declare that the above publication, produced under the supervision of Dr. Ali Abdul Aziz Khader Al-Zubaidi, and titled Hospital Information System Report, is the sole contribution of the author(s). No part hereof has been reproduced illegally (cut and paste) which can be considered as Plagiarism. All referenced parts have been used to argue the idea and
 
@@ -113,6 +115,7 @@ proven. **Date:** 16/10/2024
 
 - **Name:** Osama bandar ALahmadi **Signature:** ____________________
 
+
 <!-- Page Break -->
 
 
@@ -126,12 +129,12 @@ proven. **Date:** 16/10/2024
 <!-- Page Break -->
 
 
-
 # ABSTRACT
 
 The Hospital Information System (HIS) is designed to optimize healthcare operations, streamline patient management, and improve communication between various hospital departments. This system aims to provide a comprehensive solution that enhances patient care, automates routine administrative tasks, and ensures secure handling of medical records. With the integration of scheduling, billing, and reporting functionalities, HIS will contribute to the efficiency and effectiveness of hospital workflows. This project leverages modern web-based technologies to deliver an intuitive and scalable solution that meets the dynamic needs of the healthcare environment.
 
 **Keywords**: Hospital Information System, patient management, healthcare automation, medical records
+
 
 <!-- Page Break -->
 
@@ -186,22 +189,15 @@ The Hospital Information System (HIS) is designed to optimize healthcare operati
 
 # Software Requirements Specification (SRS) for Hospital Information System
 
-  
 
 ## Chapter 1: Introduction
-
-  
-  
+    
 
 ### 1.1 Purpose of the Project
 
 The goal of this project is to design and develop a **Hospital Information System (HIS)** that will facilitate hospital management processes by centralizing patient information, enhancing interdepartmental communication, and improving patient care services. The system will aim to automate key hospital functions such as patient registration, medical record maintenance, appointment scheduling, billing, and reporting.
 
-  
-  
-
 The HIS will also provide secure and easy access to patient data for doctors, nurses, and administrative staff while ensuring compliance with healthcare regulations. This will allow hospital staff to deliver timely and efficient care, reduce administrative overhead, and improve overall hospital efficiency.
-
 
 
 ### 1.2 Purpose of this Document
@@ -242,7 +238,6 @@ Each section of the document provides progressively detailed information, beginn
 The **Hospital Information System (HIS)** is a comprehensive solution designed to automate and optimize various hospital functions such as patient registration, medical record keeping, appointment scheduling, billing, and reporting. The system will operate on a cloud-based infrastructure to allow scalability and flexibility in data access.
 
 The system is built with modularity in mind, meaning that additional features or functionalities can be added later with minimal disruption. For example, if the hospital wants to introduce telemedicine or an AI-based diagnostic tool, these modules can be integrated with the HIS.
-
 
 
 #### External Interfaces

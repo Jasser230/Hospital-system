@@ -237,3 +237,12 @@ Each section of the document provides progressively detailed information, beginn
 
 <!-- Page Break -->
 
+
+## Chapter 2: Overall Description
+
+### 2.1 Product Perspective
+
+The **Hospital Information System (HIS)** is a comprehensive solution designed to automate and optimize various hospital functions such as patient registration, medical record keeping, appointment scheduling, billing, and reporting. The system will operate on a cloud-based infrastructure to allow scalability and flexibility in data access.
+
+The system is built with modularity in mind, meaning that additional features or functionalities can be added later with minimal disruption. For example, if the hospital wants to introduce telemedicine or an AI-based diagnostic tool, these modules can be integrated with the HIS.
+

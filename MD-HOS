@@ -294,6 +294,10 @@ The system will serve different types of users with varying levels of access and
 - The system shall automatically generate a unique patient ID upon registration.
 
 
+#### Functional Requirement 2: **Search and Update Patient Data**
+- The system shall allow hospital staff to search for patients using various filters such as name, ID, or date of birth.
+- Authorized users shall be able to update patient records with new diagnoses, medications, and lab results.
+
 
 
 

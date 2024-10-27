@@ -187,7 +187,6 @@ The Hospital Information System (HIS) is designed to optimize healthcare operati
 # Software Requirements Specification (SRS) for Hospital Information System
 
   
-  
 
 ## Chapter 1: Introduction
 
@@ -213,10 +212,14 @@ The document will act as the primary reference for:
 - **System Testers**: To ensure all system components function as specified.
 - **Stakeholders**: To validate the project scope and objectives.
 
-
-
-
-
+### 1.3 Overview of this Document
+This document is structured according to the stages of the Software Development Life Cycle (SDLC), and includes the following sections:
+- **Chapter 1**: Introduction
+- **Chapter 2**: Overall Description of the System
+- **Chapter 3**: Functional Requirements
+- **Chapter 4**: Non-Functional Requirements
+- **Chapter 5**: System Models and Diagrams
+- **Chapter 6**: Additional Considerations (Legal, Safety, Constraints)
 
 
 ### 1.4 Intended Audience and Reading Suggestions
@@ -227,6 +230,7 @@ The intended audience for this document includes:
 - **System Testers**: To validate functionality and performance benchmarks.
 
 Each section of the document provides progressively detailed information, beginning with an overview of the system requirements and moving into the specifics of each module.
+
 
 <!-- Page Break -->
 
@@ -253,17 +257,21 @@ The HIS will include the following features:
 - **Patient Registration**: Allow hospital staff to capture detailed patient information, including demographic data, insurance, and medical history.
 - **Search Functionality**: Staff can quickly retrieve patient records using various search filters (e.g., patient ID, name, date of birth).
 
+
 #### 2.2.2 **Appointment Management**
 - **Doctor Scheduling**: Doctors' calendars can be managed, showing their availability for appointments and operations.
 - **Patient Notifications**: Automated notifications and reminders sent via email or SMS to patients before their scheduled appointments.
+
 
 #### 2.2.3 **Medical Records Management**
 - **Storage of Health Records**: Securely store and manage all patient health records, including test results, diagnoses, and treatment plans.
 - **Doctor's Notes**: Doctors can update patient records with diagnoses, medications, and other observations in real-time.
 
+
 #### 2.2.4 **Billing and Payment**
 - **Automated Billing**: Generate accurate bills based on the services rendered, medications prescribed, and diagnostic tests performed.
 - **Integration with Insurance**: The system will support automated insurance claims, including verification of patient coverage and processing of payments.
+
 
 #### 2.2.5 **Reporting and Analytics**
 - **Reports Generation**: Generate detailed reports on patient admissions, financial performance, resource utilization, and doctor activity.

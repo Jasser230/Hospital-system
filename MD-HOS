@@ -338,3 +338,6 @@ The system will serve different types of users with varying levels of access and
 ### 4.3 Scalability Requirements
 
 - The system must be scalable to accommodate the hospital's growth, with the ability to support additional users, departments, and new medical services.
+
+### 4.4 Usability Requirements
+- The system shall provide an intuitive and user-friendly interface to minimize the learning curve for hospital staff.

@@ -299,6 +299,11 @@ The system will serve different types of users with varying levels of access and
 - Authorized users shall be able to update patient records with new diagnoses, medications, and lab results.
 
 
+### 3.2 Appointment Scheduling
+
+#### Functional Requirement 3: **Doctor Availability**
+- The system shall display the availability of doctors and allow patients to schedule or reschedule appointments.
+- The system shall send automated email/SMS notifications to patients to remind them of their upcoming appointments.
 
 
 

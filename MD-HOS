@@ -285,6 +285,10 @@ The system will serve different types of users with varying levels of access and
 
 - **Patients**: Limited access to their medical history, appointments, and billing information via a secure patient portal.
 
+
+<!-- Page Break -->
+
+
 ## Chapter 3: Functional Requirements
 
 ### 3.1 Patient Registration and Management
@@ -326,6 +330,8 @@ The system will serve different types of users with varying levels of access and
 #### Functional Requirement 6: **Reports**
 
 - The system shall allow administrators to generate custom reports on patient admissions, financial data, and doctor performance.
+
+<!-- Page Break -->
 
 
 ## Chapter 4: Non-Functional Requirements

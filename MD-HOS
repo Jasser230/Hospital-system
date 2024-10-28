@@ -367,3 +367,19 @@ The system will serve different types of users with varying levels of access and
 
 - **Level 1 DFD**: Provides a detailed breakdown of the patient registration process.
 
+
+
+
+## Chapter 6: Additional Considerations
+
+
+### 6.1 Legal and Compliance Requirements
+The system must comply with healthcare regulations such as HIPAA (Health Insurance Portability and Accountability Act) to ensure the privacy and security of patient data.
+
+
+### 6.2 Safety Requirements
+The system must ensure that data is backed up every 12 hours to a secure cloud storage solution, with disaster recovery plans in place to restore data in case of system failure.
+
+
+### 6.3 Constraints
+The system must be implemented within the hospital's existing IT infrastructure, which includes limited bandwidth and on-site IT staff.

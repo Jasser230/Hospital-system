@@ -351,3 +351,19 @@ The system will serve different types of users with varying levels of access and
 
 ### 4.4 Usability Requirements
 - The system shall provide an intuitive and user-friendly interface to minimize the learning curve for hospital staff.
+
+## Chapter 5: System Models and Diagrams
+
+### 5.1 Use Case Diagrams
+
+- **Use Case 1**: Patient Registration - The receptionist adds a new patient to the system, including their personal and medical information.
+
+- **Use Case 2**: Appointment Scheduling - A patient books an appointment online, and the system updates the doctor’s schedule.
+
+
+### 5.2 Data Flow Diagrams
+
+- **Level 0 DFD**: Illustrates the overall system, showing how patients, doctors, and administrative staff interact with HIS.
+
+- **Level 1 DFD**: Provides a detailed breakdown of the patient registration process.
+

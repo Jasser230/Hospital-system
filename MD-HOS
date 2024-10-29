@@ -454,9 +454,12 @@ To ensure the system complies with healthcare regulations like **HIPAA** in the 
 - **Logging and Auditing**: Accurate records should be kept for all data access attempts. A monitoring system should be in place to detect any unauthorized access to patient data.
 - **Staff Training**: Regular training for employees on secure data handling and awareness of potential cybersecurity threats.
 
-
 ### 6.2 Safety Requirements
-The system must ensure that data is backed up every 12 hours to a secure cloud storage solution, with disaster recovery plans in place to restore data in case of system failure.
+To enhance security and protection, additional safety requirements could include the following:
+
+- **Frequent Backups**: Adding extra backup intervals, such as every 6 hours, for critically important data.
+- **Testing the Disaster Recovery Plan**: Disaster recovery plans should be periodically tested to ensure effectiveness, including testing backups and data retrieval in a controlled environment.
+- **Update Management**: Ensuring all updates occur after business hours to minimize system impact and prevent data loss or system disruption during updates.
 
 
 ### 6.3 Constraints

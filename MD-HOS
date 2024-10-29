@@ -374,6 +374,7 @@ The system will serve different types of users with varying levels of access and
   - **Postconditions**:
     - A new patient profile is created in the system, assigned a unique ID for future reference.
     - Confirmation of the registration is displayed to the receptionist and stored in the system log.
+
   - **Main Flow**:
     1. The receptionist accesses the patient registration form via the system’s main interface.
     2. The receptionist enters personal information (e.g., name, date of birth, contact details).
@@ -392,6 +393,7 @@ The system will serve different types of users with varying levels of access and
   - **Postconditions**:
     - The appointment is successfully booked, and the doctor’s schedule is updated to reflect the new booking.
     - A confirmation of the appointment is sent to the patient via email or SMS.
+
   - **Main Flow**:
     1. The patient navigates to the appointment scheduling section within the HIS.
     2. The patient selects a doctor from the available list and chooses a suitable time slot based on availability.
@@ -401,21 +403,28 @@ The system will serve different types of users with varying levels of access and
     6. The system sends an appointment confirmation to the patient, with details and a reminder.
 
 ### 5.2 Data Flow Diagrams
-- **Level 0 DFD**: 
-  - **Entities**: Patients, Doctors, Administrative Staff
+- **Level 0 DFD**: Health Information System Overview
+  - **Entities**: Patients, Doctors, Administrative Staff, Billing System
   - **Processes**:
     1. Patient Registration
     2. Appointment Scheduling
     3. Medical Records Management
     4. Billing and Payment Processing
-  - **Data Stores**: 
+    5. Reporting and Analytics
+
+  - **Data Stores**:
     - Patient Database
     - Appointment Database
     - Medical Records Database
-  - **Flow**: 
-    - Patients provide information to the system for registration and appointments.
-    - Doctors access patient records and appointment details.
-    - Administrative staff manage records and billing.
+    - Billing Database
+
+  - **Flow**:
+    - Patients submit their information to the system for registration, appointments, and updates.
+    - Doctors access and update patient records as part of diagnosis and treatment.
+    - Administrative staff manage billing, records, and generate reports.
+    - The billing system processes payments and maintains billing history for each patient.
+
+
 
 - **Level 1 DFD**: Patient Registration Process
   - **Entities**: Receptionist, Patient
@@ -425,6 +434,7 @@ The system will serve different types of users with varying levels of access and
     3. Create Patient Record
   - **Data Stores**:
     - Patient Database
+
   - **Flow**:
     - The receptionist collects personal and medical information from the patient.
     - The system validates the information against existing records.

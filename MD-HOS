@@ -351,6 +351,18 @@ The system will serve different types of users with varying levels of access and
 - Regular security audits must be conducted, with vulnerability scanning and penetration testing, to identify and mitigate potential threats.
 - Access to patient records shall be role-based, with different levels of access permissions assigned to different roles (e.g., receptionist, doctor, administrator) to minimize unauthorized access.
 
+### 4.3 Scalability Requirements
+- The system must be scalable both vertically and horizontally to support the hospital’s growth, accommodating a potential doubling of user base over the next 5 years.
+- The system architecture should support the seamless integration of additional modules, such as Telemedicine, Lab Reports, or Pharmacy Management, as required by future hospital expansions.
+- Cloud hosting and containerization technologies shall be used to ensure flexible scaling, allowing new resources to be added as demand increases.
+- Database capacity should be easily expandable to store increasing volumes of patient records, medical histories, and appointment data without compromising performance.
+
+### 4.4 Usability Requirements
+- The system shall provide an intuitive and user-friendly interface, designed with simplicity to minimize the learning curve for hospital staff of varying technological proficiency.
+- Interactive tutorials and a comprehensive help section shall be integrated to assist users with initial navigation and usage.
+- The interface must be accessible, with compliance to WCAG (Web Content Accessibility Guidelines) standards to support users with disabilities.
+- The system must include features to allow personalization and customization for each user’s workflow preferences, such as saving commonly used settings or shortcuts.
+
 
 ### 5.1 Use Case Diagrams
 

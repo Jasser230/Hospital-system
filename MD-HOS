@@ -352,7 +352,8 @@ The system will serve different types of users with varying levels of access and
 ### 4.4 Usability Requirements
 - The system shall provide an intuitive and user-friendly interface to minimize the learning curve for hospital staff.
 
-## Chapter 5: System Models and Diagrams
+
+### 5.1 Use Case Diagrams
 
 - **Use Case 1: Patient Registration**
   - **Actors**: Receptionist
@@ -365,7 +366,6 @@ The system will serve different types of users with varying levels of access and
     4. The receptionist submits the form.
     5. The system validates the information and creates a new patient record.
     6. The system confirms registration and provides the patient ID.
-
 
 - **Use Case 2: Appointment Scheduling**
   - **Actors**: Patient

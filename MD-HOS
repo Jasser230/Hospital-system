@@ -379,6 +379,37 @@ The system will serve different types of users with varying levels of access and
     5. The system updates the doctor’s schedule.
     6. The system sends a confirmation to the patient.
 
+### 5.2 Data Flow Diagrams
+
+- **Level 0 DFD**: 
+  - **Entities**: Patients, Doctors, Administrative Staff
+  - **Processes**:
+    1. Patient Registration
+    2. Appointment Scheduling
+    3. Medical Records Management
+    4. Billing and Payment Processing
+  - **Data Stores**: 
+    - Patient Database
+    - Appointment Database
+    - Medical Records Database
+  - **Flow**: 
+    - Patients provide information to the system for registration and appointments.
+    - Doctors access patient records and appointment details.
+    - Administrative staff manage records and billing.
+
+- **Level 1 DFD**: Patient Registration Process
+  - **Entities**: Receptionist, Patient
+  - **Processes**:
+    1. Collect Patient Information
+    2. Validate Information
+    3. Create Patient Record
+  - **Data Stores**:
+    - Patient Database
+  - **Flow**:
+    - The receptionist collects personal and medical information from the patient.
+    - The system validates the information against existing records.
+    - Upon successful validation, a new patient record is created in the Patient Database.
+    - Confirmation is sent back to the receptionist.
 
 
 

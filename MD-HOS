@@ -417,7 +417,12 @@ The system will serve different types of users with varying levels of access and
 
 
 ### 6.1 Legal and Compliance Requirements
-The system must comply with healthcare regulations such as HIPAA (Health Insurance Portability and Accountability Act) to ensure the privacy and security of patient data.
+To ensure the system complies with healthcare regulations like **HIPAA** in the United States, additional steps must be taken to protect the confidentiality and security of patient data. These steps include:
+
+- **Data Encryption**: Data should be encrypted both in transit (between devices and over the network) and at rest to ensure unauthorized parties cannot access it.
+- **Access Control**: Access control mechanisms should be in place, allowing only authorized personnel to access patient information.
+- **Logging and Auditing**: Accurate records should be kept for all data access attempts. A monitoring system should be in place to detect any unauthorized access to patient data.
+- **Staff Training**: Regular training for employees on secure data handling and awareness of potential cybersecurity threats.
 
 
 ### 6.2 Safety Requirements

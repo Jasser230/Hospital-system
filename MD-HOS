@@ -368,30 +368,39 @@ The system will serve different types of users with varying levels of access and
 
 - **Use Case 1: Patient Registration**
   - **Actors**: Receptionist
-  - **Preconditions**: The receptionist is logged into the Health Information System (HIS).
-  - **Postconditions**: A new patient profile is created in the system, and the patient receives a unique ID.
+  - **Preconditions**:
+    - The receptionist is logged into the Health Information System (HIS) with appropriate permissions.
+    - Required patient information (personal, contact, and medical history) is available for entry.
+  - **Postconditions**:
+    - A new patient profile is created in the system, assigned a unique ID for future reference.
+    - Confirmation of the registration is displayed to the receptionist and stored in the system log.
   - **Main Flow**:
-    1. The receptionist accesses the patient registration form.
-    2. The receptionist enters personal information (name, date of birth, contact details).
-    3. The receptionist enters medical information (medical history, allergies, current medications).
+    1. The receptionist accesses the patient registration form via the system’s main interface.
+    2. The receptionist enters personal information (e.g., name, date of birth, contact details).
+    3. The receptionist provides medical information as required (e.g., medical history, allergies, and current medications).
     4. The receptionist submits the form.
-    5. The system validates the information and creates a new patient record.
-    6. The system confirms registration and provides the patient ID.
+    5. The system validates the information, checking for completeness and consistency.
+    6. A new patient record is created and assigned a unique ID, stored in the Patient Database.
+    7. The system confirms the successful registration and provides the patient ID for future reference.
+
 
 - **Use Case 2: Appointment Scheduling**
   - **Actors**: Patient
-  - **Preconditions**: The patient has an account and is logged into the HIS.
-  - **Postconditions**: The appointment is booked and the doctor’s schedule is updated.
+  - **Preconditions**:
+    - The patient has an existing account and is logged into the HIS system.
+    - The doctor’s schedule is up-to-date and reflects current availability.
+  - **Postconditions**:
+    - The appointment is successfully booked, and the doctor’s schedule is updated to reflect the new booking.
+    - A confirmation of the appointment is sent to the patient via email or SMS.
   - **Main Flow**:
-    1. The patient navigates to the appointment scheduling section.
-    2. The patient selects a doctor and available time slot.
-    3. The patient confirms the appointment details.
-    4. The system verifies the time slot availability.
-    5. The system updates the doctor’s schedule.
-    6. The system sends a confirmation to the patient.
+    1. The patient navigates to the appointment scheduling section within the HIS.
+    2. The patient selects a doctor from the available list and chooses a suitable time slot based on availability.
+    3. The patient confirms the appointment details, including date, time, and doctor selection.
+    4. The system verifies the time slot’s availability to prevent double booking.
+    5. The doctor’s schedule is updated to include the new appointment.
+    6. The system sends an appointment confirmation to the patient, with details and a reminder.
 
 ### 5.2 Data Flow Diagrams
-
 - **Level 0 DFD**: 
   - **Entities**: Patients, Doctors, Administrative Staff
   - **Processes**:

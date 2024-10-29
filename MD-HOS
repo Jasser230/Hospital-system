@@ -427,13 +427,13 @@ The system will serve different types of users with varying levels of access and
 
 
 - **Level 1 DFD**: Patient Registration Process
-  - **Entities**: Receptionist, Patient
+  - **Entities**: Receptionist, Patient, HIS System
   - **Processes**:
     1. Collect Patient Information
     2. Validate Information
     3. Create Patient Record
   - **Data Stores**:
-    - Patient Database
+    - Patient Database 
 
   - **Flow**:
     - The receptionist collects personal and medical information from the patient.

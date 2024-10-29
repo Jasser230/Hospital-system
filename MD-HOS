@@ -367,11 +367,17 @@ The system will serve different types of users with varying levels of access and
     6. The system confirms registration and provides the patient ID.
 
 
-### 5.2 Data Flow Diagrams
-
-- **Level 0 DFD**: Illustrates the overall system, showing how patients, doctors, and administrative staff interact with HIS.
-
-- **Level 1 DFD**: Provides a detailed breakdown of the patient registration process.
+- **Use Case 2: Appointment Scheduling**
+  - **Actors**: Patient
+  - **Preconditions**: The patient has an account and is logged into the HIS.
+  - **Postconditions**: The appointment is booked and the doctor’s schedule is updated.
+  - **Main Flow**:
+    1. The patient navigates to the appointment scheduling section.
+    2. The patient selects a doctor and available time slot.
+    3. The patient confirms the appointment details.
+    4. The system verifies the time slot availability.
+    5. The system updates the doctor’s schedule.
+    6. The system sends a confirmation to the patient.
 
 
 

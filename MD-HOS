@@ -338,19 +338,18 @@ The system will serve different types of users with varying levels of access and
 
 
 ### 4.1 Performance Requirements
-- The system must be capable of handling at least 500 concurrent users without performance degradation.
-- The response time for most actions, such as retrieving patient records or scheduling appointments, must not exceed 3 seconds.
+
+- The system must be capable of handling at least 500 concurrent users without any significant degradation in performance, ensuring smooth access and operation during peak hours.
+- The response time for most critical actions, such as retrieving patient records, scheduling appointments, and updating medical records, must not exceed 3 seconds.
+- Database queries related to patient records, billing, and scheduling should execute in under 1 second on average to maintain a seamless user experience.
+- The system shall log performance metrics, including response times, error rates, and server load, for ongoing monitoring and optimization.
 
 ### 4.2 Security Requirements
-- All patient data must be encrypted in transit using SSL/TLS protocols and stored securely with encryption algorithms such as AES-256.
-- The system shall require multi-factor authentication (MFA) for administrative access and medical personnel.
-
-### 4.3 Scalability Requirements
-
-- The system must be scalable to accommodate the hospital's growth, with the ability to support additional users, departments, and new medical services.
-
-### 4.4 Usability Requirements
-- The system shall provide an intuitive and user-friendly interface to minimize the learning curve for hospital staff.
+- All patient data in transit must be encrypted using SSL/TLS protocols to protect against unauthorized access during transmission.
+- Sensitive data, including personal and medical records, shall be stored securely with encryption algorithms such as AES-256 to comply with HIPAA and other data protection regulations.
+- The system shall require multi-factor authentication (MFA) for administrative access and medical personnel, adding an extra layer of security to critical data and system operations.
+- Regular security audits must be conducted, with vulnerability scanning and penetration testing, to identify and mitigate potential threats.
+- Access to patient records shall be role-based, with different levels of access permissions assigned to different roles (e.g., receptionist, doctor, administrator) to minimize unauthorized access.
 
 
 ### 5.1 Use Case Diagrams

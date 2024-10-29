@@ -463,4 +463,8 @@ To enhance security and protection, additional safety requirements could include
 
 
 ### 6.3 Constraints
-The system must be implemented within the hospital's existing IT infrastructure, which includes limited bandwidth and on-site IT staff.
+Due to the system constraints, such as the hospital’s existing infrastructure, additional considerations may be required:
+
+- **Bandwidth Management**: To prevent backup or data transfer processes from impacting overall system performance, a dedicated bandwidth should be allocated to the system.
+- **Remote Support**: Given the limited on-site IT staff, remote support may be useful to resolve issues beyond the team’s capacity.
+- **Priority-Based System Segmentation**: Prioritizing IT solutions for high-priority cases to ensure that available resources are used effectively.

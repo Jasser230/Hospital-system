@@ -26,7 +26,9 @@ Umm Al-Qura University, KSA
 </p>
 
 
+
 <!-- Page Break -->
+
 
 
 *Submitted to the Computing at Umm Al-Qura University in partial fulfillment of the requirements for the degree of Bachelor of Science in Computer Science.*
@@ -66,7 +68,9 @@ Fax: +966 56 358 4937
 Kingdom of Saudi Arabia
 
 
+
 <!-- Page Break -->
+
 
 
 # Intellectual Property Right Declaration
@@ -92,7 +96,9 @@ This above statement applies to all students and faculty members.
 - **Name:** Osama bandar ALahmadi **Signature:** ____________________
 
 
+
 <!-- Page Break -->
+
 
 
 # Anti-Plagiarism Declaration 
@@ -116,7 +122,9 @@ proven. **Date:** 16/10/2024
 - **Name:** Osama bandar ALahmadi **Signature:** ____________________
 
 
+
 <!-- Page Break -->
+
 
 
 # Acknowledgments
@@ -126,7 +134,9 @@ proven. **Date:** 16/10/2024
 *Special thanks to the development team, healthcare professionals, and hospital staff whose invaluable contributions have made this project a reality.*
 
 
+
 <!-- Page Break -->
+
 
 
 # ABSTRACT
@@ -136,7 +146,9 @@ The Hospital Information System (HIS) is designed to optimize healthcare operati
 **Keywords**: Hospital Information System, patient management, healthcare automation, medical records
 
 
+
 <!-- Page Break -->
+
 
 
 # TABLE OF CONTENTS
@@ -184,7 +196,9 @@ The Hospital Information System (HIS) is designed to optimize healthcare operati
 10. Abstract
 
 
+
 <!-- Page Break -->
+
 
 
 # Software Requirements Specification (SRS) for Hospital Information System
@@ -228,7 +242,9 @@ The intended audience for this document includes:
 Each section of the document provides progressively detailed information, beginning with an overview of the system requirements and moving into the specifics of each module.
 
 
+
 <!-- Page Break -->
+
 
 
 ## Chapter 2: Overall Description
@@ -286,7 +302,9 @@ The system will serve different types of users with varying levels of access and
 - **Patients**: Limited access to their medical history, appointments, and billing information via a secure patient portal.
 
 
+
 <!-- Page Break -->
+
 
 
 ## Chapter 3: Functional Requirements
@@ -332,7 +350,9 @@ The system will serve different types of users with varying levels of access and
 - The system shall allow administrators to generate custom reports on patient admissions, financial data, and doctor performance.
 
 
+
 <!-- Page Break -->
+
 
 
 ## Chapter 4: Non-Functional Requirements
@@ -365,7 +385,9 @@ The system will serve different types of users with varying levels of access and
 - The system must include features to allow personalization and customization for each user’s workflow preferences, such as saving commonly used settings or shortcuts.
 
 
+
 <!-- Page Break -->
+
 
 
 ### 5.1 Use Case Diagrams
@@ -449,7 +471,9 @@ The system will serve different types of users with varying levels of access and
       registration process.
 
 
+
 <!-- Page Break -->
+
 
 
 ## Chapter 6: Additional Considerations
@@ -477,6 +501,7 @@ Due to the system constraints, such as the hospital’s existing infrastructure,
 - **Bandwidth Management**: To prevent backup or data transfer processes from impacting overall system performance, a dedicated bandwidth should be allocated to the system.
 - **Remote Support**: Given the limited on-site IT staff, remote support may be useful to resolve issues beyond the team’s capacity.
 - **Priority-Based System Segmentation**: Prioritizing IT solutions for high-priority cases to ensure that available resources are used effectively.
+
 
 
 <!-- Page Break -->

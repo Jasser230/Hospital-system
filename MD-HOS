@@ -331,6 +331,7 @@ The system will serve different types of users with varying levels of access and
 
 - The system shall allow administrators to generate custom reports on patient admissions, financial data, and doctor performance.
 
+
 <!-- Page Break -->
 
 
@@ -362,6 +363,9 @@ The system will serve different types of users with varying levels of access and
 - Interactive tutorials and a comprehensive help section shall be integrated to assist users with initial navigation and usage.
 - The interface must be accessible, with compliance to WCAG (Web Content Accessibility Guidelines) standards to support users with disabilities.
 - The system must include features to allow personalization and customization for each user’s workflow preferences, such as saving commonly used settings or shortcuts.
+
+
+<!-- Page Break -->
 
 
 ### 5.1 Use Case Diagrams
@@ -436,11 +440,16 @@ The system will serve different types of users with varying levels of access and
     - Patient Database 
 
   - **Flow**:
-    - The receptionist collects personal and medical information from the patient.
-    - The system validates the information against existing records.
-    - Upon successful validation, a new patient record is created in the Patient Database.
-    - Confirmation is sent back to the receptionist.
+    -The receptionist collects both personal and medical information directly from the
+     patient.
+    -The system validates the provided information, checking for accuracy and
+    completeness against existing records to avoid duplicates.
+    -Upon successful validation, a new patient record is created in the Patient Database.
+    -The system sends a confirmation notification to the receptionist, completing the
+      registration process.
 
+
+<!-- Page Break -->
 
 
 ## Chapter 6: Additional Considerations
@@ -468,3 +477,6 @@ Due to the system constraints, such as the hospital’s existing infrastructure,
 - **Bandwidth Management**: To prevent backup or data transfer processes from impacting overall system performance, a dedicated bandwidth should be allocated to the system.
 - **Remote Support**: Given the limited on-site IT staff, remote support may be useful to resolve issues beyond the team’s capacity.
 - **Priority-Based System Segmentation**: Prioritizing IT solutions for high-priority cases to ensure that available resources are used effectively.
+
+
+<!-- Page Break -->
